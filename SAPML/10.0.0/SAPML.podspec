@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
     spec.summary              = 'SAP BTP SDK for iOS - SAPML Framework'
     spec.documentation_url    = 'https://help.sap.com/viewer/p/SAP_CLOUD_PLATFORM_SDK_FOR_IOS'
     spec.source               = { :http => 'https://rbsc.repositories.cloud.sap/nexus3/repository/maven73554900100900008062/ios/SAPML/10.0.0/SAPML-10.0.0-Release.xcframework.zip' }
-    spec.vendored_frameworks  = 'SAPML.xcframework'
+    spec.vendored_frameworks  = 'SAPML-10.0.0-Release.xcframework'
     spec.framework            = 'SAPML'
     spec.dependency  'SAPCommon', '10.0.0'
     spec.license              = { :type => 'SAP Developer License', :text => <<-LICENSE
